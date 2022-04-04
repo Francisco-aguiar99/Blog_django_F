@@ -11,6 +11,4 @@ class Post(models.Model):
     boby = models.TextField() # são os post do blog
     create = models.DateTimeField(auto_now_add=True) # vai guarda data e hora automatico
     updated = models.DateTimeField(auto_now=True) # vai salva as modifições 
-    
-
 
