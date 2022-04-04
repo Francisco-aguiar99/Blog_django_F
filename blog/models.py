@@ -12,3 +12,6 @@ class Post(models.Model):
     create = models.DateTimeField(auto_now_add=True) # vai guarda data e hora automatico
     updated = models.DateTimeField(auto_now=True) # vai salva as modifições 
 
+    def __str__(self):
+        return self.title
+
